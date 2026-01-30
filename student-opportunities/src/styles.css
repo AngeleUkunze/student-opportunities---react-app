@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White container */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #06346c;
+    /* Dark blue text */
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    color: #f9fcfe;
+    /* Dark input text */
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    color: #580ad6;
+    /* Dark text for list items */
+    font-size: 1rem;
+}
+
+.status-button {
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.status-button.applied {
+    background-color: #2ecc71;
+    /* Green for applied */
+    color: white;
+}
+
+.status-button.interested {
+    background-color: #f1c40f;
+    /* Yellow for interested */
+    color: white;
+}
+
+.status-button.applied.active {
+    background-color: #27ae60;
+    /* Darker green when active */
+}
+
+.status-button.interested.active {
+    background-color: #f39c12;
+    /* Darker yellow when active */
+}
+
+.status-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.status-button.applied {
+    background-color: #2ecc71;
+    /* Green */
+    color: white;
+}
+
+.status-button.interested {
+    background-color: #f1c40f;
+    /* Yellow */
+    color: white;
+}
+
+.status-button.active {
+    opacity: 0.8;
+    /* Highlight active button */
+}
+
+.status-button.delete {
+    background-color: #e74c3c;
+    /* Red */
+    color: white;
+    margin-left: 5px;
+}
+
+.status-button.delete:hover {
+    background-color: #c0392b;
+}
+
+.status-button.logout {
+    background-color: #34495e;
+    /* Dark grey */
+    color: white;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+.status-button.logout:hover {
+    background-color: #2c3e50;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.status-button.applied {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.status-button.interested {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.status-button.active {
+    opacity: 0.8;
+}
+
+.status-button.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.status-button.delete:hover {
+    background-color: #c0392b;
+}
+
+.status-button.logout {
+    background-color: #34495e;
+    color: white;
+    margin-left: 10px;
+}
+
+.status-button.logout:hover {
+    background-color: #2c3e50;
+}
+
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-modal form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-modal input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login-modal button {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
